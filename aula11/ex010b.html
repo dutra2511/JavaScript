@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input#nas{
+            height: 30px;
+            margin-left: 30px;
+        }
+        input#btn{
+            height: 35px;
+        }
+        div#res{
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <h2>Digite sua nacionalidade:</h2>
+    <input type="text" name="nas" id="nas">
+    <input type="button" id="btn" value="Verificar" onclick="verificar()">
+    <div id="res">
+        Resultado
+    </div>
+
+    <script>
+        function verificar(){
+            var pais = window.document.getElementById('nas')
+            if(pais == 'Brasil'){
+                res.innerHTML = 'Você é Brasileiro!'
+                res.style.background = 'green'
+                res.style.color = 'yellow'
+            }else{
+                res.innerHTML = 'Você é Estrangeiro!'
+                res.style.background = 'red'
+                res.style.color = 'white' 
+            }
+        }
+    </script>
+</body>
+</html>
