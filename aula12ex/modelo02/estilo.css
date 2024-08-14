@@ -11,7 +11,6 @@ body{
 header{
     color: white;
     text-align: center;
-    margin: 10px;
 }
 
 section{
@@ -23,29 +22,9 @@ section{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.493);
 }
 
-div#msg{
-    text-align: center;
-    padding: 10px;
-}
-
-div#foto{
-    margin: auto;
-    text-align: center;
-}
-
-img#imagem{
-    margin: auto;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    
-    
-}
-
 footer{
     color: white;
     text-align: center;
     font-style: italic;
     padding: 15px;
-    
 }
