@@ -34,14 +34,16 @@
     <script>
         function verificar(){
             var pais = window.document.getElementById('nas')
-            if(pais == 'Brasil'){
-                res.innerHTML = 'Você é Brasileiro!'
-                res.style.background = 'green'
-                res.style.color = 'yellow'
-            }else{
+            
+            if(pais != 'Brasil'){
                 res.innerHTML = 'Você é Estrangeiro!'
                 res.style.background = 'red'
                 res.style.color = 'white' 
+                             
+            }else{
+                res.innerHTML = 'Você é Brasileiro!'
+                res.style.background = 'green'
+                res.style.color = 'yellow'
             }
         }
     </script>
